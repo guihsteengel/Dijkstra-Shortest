@@ -91,7 +91,7 @@ def print_result(preceding_knot, road_short, starting_city, target_knot):
     # Adiciona o nó inicial manualmente
     road.append(starting_city)
     
-    print("Encontramos o melhor caminho a seguir com uma avaliação de {}.".format(road_short[target_knot]))
+    print("O Mínimo caminho é {}.".format(road_short[target_knot]))
     print(" -> ".join(reversed(road)))
 
 knots = ["Oradea","Zerind","Arad","Sibiu","Fagaras","Timisoara","Lugoj","Mehadia","Dobreta","Craiova","Rimnicu Vilcea","Pitesti","Bucharest","Girgiu","Urziceni","Hirsova","Vaslui","Eforie","Iasi","Neamt",]
